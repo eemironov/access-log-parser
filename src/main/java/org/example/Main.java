@@ -9,12 +9,12 @@ public class Main {
         System.out.println("Введите второе число: ");
         int secondNumber = new Scanner(System.in).nextInt();
         double quotient = (double) firstNumber / secondNumber;
-        System.out.println(quotient);
+        System.out.println("Частное = " +quotient);
         int sum =  firstNumber + secondNumber;
-        System.out.println(sum);
+        System.out.println("Сумма = " +sum);
         int comp =  firstNumber * secondNumber;
-        System.out.println(comp);
+        System.out.println("Произведение = " +comp);
         int diff =  firstNumber - secondNumber;
-        System.out.println(diff);
+        System.out.println("Разность = " +diff);
     }
 }
